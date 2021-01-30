@@ -1,0 +1,122 @@
+// Import Bulma's core
+@import "~bulma/sass/utilities/_all";
+
+// Import Font Awesome
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+// Set fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Vollkorn&family=Roboto+Mono&family=IBM+Plex+Mono');
+$family-sans-serif: 'Nunito Sans';
+$family-serif: 'Vollkorn';
+$family-monospace: 'Roboto Mono';
+$family-code: 'IBM Plex Mono';
+$family-primary: $family-sans-serif;
+$family-secondary: $family-monospace;
+
+// Set your colors
+$primary: #003a94;
+$primary-light: findLightColor($primary);
+$primary-dark: findDarkColor($primary);
+$primary-invert: findColorInvert($primary);
+
+$twitter: #4099FF;
+$twitter-invert: findColorInvert($twitter);
+
+$white: #ffffff;
+$dark: #141414;
+
+$info: $primary;
+$info-invert: $primary-invert;
+$info-light: $primary-light;
+$info-dark: $primary-dark;
+
+$info: #01aac1;
+$info-invert: findColorInvert($info);
+$info-light: findLightColor($info);
+$info-dark: findDarkColor($info);
+
+$success: #86ddb0;
+$success-invert: findColorInvert($success);
+$success-light: findLightColor($success);
+$success-dark: findDarkColor($success);
+
+$warning: #ffc903;
+$warning-invert: findColorInvert($warning);
+$warning-light: findLightColor($warning);
+$warning-dark: findDarkColor($warning);
+
+$danger: #f4405d;
+$danger-invert: findColorInvert($danger);
+$danger-light: findLightColor($danger);
+$danger-dark: findDarkColor($danger);
+
+$colors: mergeColorMaps(
+        (
+            "white": (
+                $white,
+                $black,
+            ),
+            "black": (
+                $black,
+                $white,
+            ),
+            "light": (
+                $light,
+                $light-invert,
+            ),
+            "dark": (
+                $dark,
+                $dark-invert,
+            ),
+            "primary": (
+                $primary,
+                $primary-invert,
+                $primary-light,
+                $primary-dark,
+            ),
+            "link": (
+                $link,
+                $link-invert,
+                $link-light,
+                $link-dark,
+            ),
+            "info": (
+                $info,
+                $info-invert,
+                $info-light,
+                $info-dark,
+            ),
+            "success": (
+                $success,
+                $success-invert,
+                $success-light,
+                $success-dark,
+            ),
+            "warning": (
+                $warning,
+                $warning-invert,
+                $warning-light,
+                $warning-dark,
+            ),
+            "danger": (
+                $danger,
+                $danger-invert,
+                $danger-light,
+                $danger-dark,
+            ),
+            "twitter": (
+                $twitter,
+                $twitter-invert
+            )
+        ),
+        $custom-colors
+);
+
+// Links
+$link: $primary;
+$link-invert: $primary-invert;
+$link-focus-border: $primary;
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
