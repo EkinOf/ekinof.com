@@ -77,7 +77,7 @@
                                         </b-taglist>
                                     </div>
                                     <div class="tile is-child box">
-                                        <a class="twitter-timeline" data-height="1500" data-dnt="true" href="https://twitter.com/EkinOf?ref_src=twsrc%5Etfw">Tweets by EkinOf</a>
+                                        <a class="twitter-timeline" data-height="1500" href="https://twitter.com/EkinOf?ref_src=twsrc%5Etfw">Tweets by EkinOf</a>
                                     </div>
                                 </div>
                             </div>
