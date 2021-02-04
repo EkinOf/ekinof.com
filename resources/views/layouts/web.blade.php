@@ -15,6 +15,7 @@
     <link rel="icon" href="{!! asset('images/favicon-228.png') !!}" sizes="228x228">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name="twitter:dnt" content="on">
     <title>@yield('title') - {!! config('app.name') !!}</title>
 </head>
 <body>
@@ -77,7 +78,7 @@
                                         </b-taglist>
                                     </div>
                                     <div class="tile is-child box">
-                                        <a class="twitter-timeline" data-height="1500" data-dnt="true" href="https://twitter.com/EkinOf?ref_src=twsrc%5Etfw">Tweets by EkinOf</a>
+                                        <a class="twitter-timeline title" data-dnt="true" data-height="1500" target="_blank" href="https://twitter.com/EkinOf?ref_src=twsrc%5Etfw">Link to my twitter</a>
                                     </div>
                                 </div>
                             </div>

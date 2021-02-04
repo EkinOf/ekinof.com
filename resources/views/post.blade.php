@@ -31,8 +31,7 @@
        :data-url="post.link"
        data-via="EkinOf"
        data-related="EkinOf"
-       data-show-count="false"
-       data-dnt="true">Tweet</a>
+       data-show-count="false">Tweet</a>
     <button class="button is-small" @click="copyLink">Copy URL</button>
     <br>
     <br>
@@ -45,8 +44,7 @@
        :data-url="post.link"
        data-via="EkinOf"
        data-related="EkinOf"
-       data-show-count="false"
-       data-dnt="true">Tweet</a>
+       data-show-count="false">Tweet</a>
     <button class="button is-small" @click="copyLink">Copy URL</button>
     <br>
     <br>
