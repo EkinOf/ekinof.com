@@ -94,7 +94,7 @@
                 </p>
                 <p>
                     CSS by <a href="https://bulma.io" target="_blank">Bulma</a>.
-                    Logo <i class="far fa-copyright"></i> by <a href="https://twitter.com/Artwo" target="_blank">Artwo</a>.
+                    Logo <i class="far fa-copyright"></i> by <a href="https://artwo.xyz" target="_blank">Artwo</a>.
                 </p>
             </div>
         </footer>
