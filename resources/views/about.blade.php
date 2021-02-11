@@ -10,7 +10,11 @@
     </section>
     <br>
     <div class="content">
-
+        Hi, my name's EkinOf!<br>
+        I'm a fullstack developer in his twenties.<br>
+        I develop code in PHP and JS mostly, but sometimes I make some python.<br>
+        <br>
+        I'm a huge fan of movies, you can check my <a href="https://letterboxd.com/EkinOf/" target="_blank">letterboxd account</a>.
     </div>
 @stop
 
